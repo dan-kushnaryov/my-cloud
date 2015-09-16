@@ -3,9 +3,13 @@
   "description": "development environment",
   "chef_type": "environment",
   "json_class": "Chef::Environment",
-  "default_attributes": {
-    "apache": {
-      "timeout": 120
+  "override_attributes": {
+    "php": {
+      "directives": {
+        "display_errors": 1,
+        "display_startup_errors": 1,
+        "error_reporting": 1
+      }
     }
   }
 }

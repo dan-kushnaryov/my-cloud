@@ -6,6 +6,11 @@ site 'https://supermarket.getchef.com/api/v1'
 # cookbook 'chef-client'
 
 cookbook 'apache2', '>= 1.0.0'
+cookbook 'php', '~> 1.7.2'
+cookbook 'apt', '~> 2.8.2'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
 
 # cookbook 'rvm',
 #   :git => 'https://github.com/fnichol/chef-rvm'

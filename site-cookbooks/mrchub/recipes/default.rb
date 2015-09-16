@@ -3,10 +3,16 @@
 # Recipe:: default
 #
 
-%w(git ntp).each do |pack|
+%w(git git-core gcc autoconf zip unzip gcc perl make jq).each do |pack|
   package pack
 end
 
-%w(apache2 apache2::mpm_prefork apache2::mod_php5 apache2::mod_ssl).each do |recipe|
-  include_recipe recipe
-end
+include_recipe 'apache2'
+include_recipe 'apache2::mod_rewrite'
+include_recipe 'apache2::mod_alias'
+include_recipe 'apache2::mod_php5'
+include_recipe 'php'
+
+include_recipe 'mrchub::php-install'
+include_recipe 'mrchub::phalcon-install'
+include_recipe 'mrchub::vhosts'

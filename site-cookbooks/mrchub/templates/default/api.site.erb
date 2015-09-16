@@ -1,0 +1,14 @@
+<Directory <%= @params[:api_dir] %>>
+  Options FollowSymLinks
+  AllowOverride FileInfo Options
+  Order allow,deny
+  Allow from all
+</Directory>
+
+<VirtualHost *:8080>
+  ServerName <%= @params[:server_name] %>
+  DocumentRoot <%= @params[:api_dir] %>
+  DirectoryIndex app.php
+  CustomLog <%= @params[:docroot_dir] %>/log/<%= @params[:server_name] %>-access.log combined
+  ErrorLog <%= @params[:docroot_dir] %>/log/<%= @params[:server_name] %>-error.log
+</VirtualHost>
