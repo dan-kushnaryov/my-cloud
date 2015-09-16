@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f03308f-de9c-465d-9d8e-a4e1afaf1790" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/templates/default/api.site.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/attributes/default.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/phalcon-install.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/php-install.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/vhosts.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/web.json" afterPath="$PROJECT_DIR$/roles/hub-api.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrc-hub/Hub-API" afterPath="$PROJECT_DIR$/mrc-hub/Hub-API" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cheffile.lock" afterPath="$PROJECT_DIR$/Cheffile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cheffile" afterPath="$PROJECT_DIR$/Cheffile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/default.rb" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/default.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/environments/development.json" afterPath="$PROJECT_DIR$/environments/development.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrc-hub/log/api.mrchub.local-access.log" afterPath="$PROJECT_DIR$/mrc-hub/log/api.mrchub.local-access.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mrc-hub/Hub-API/public/index.php" afterPath="$PROJECT_DIR$/mrc-hub/Hub-API/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-cookbooks/mrchub/metadata.rb" afterPath="$PROJECT_DIR$/site-cookbooks/mrchub/metadata.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodes/vagrant.json" afterPath="$PROJECT_DIR$/nodes/vagrant.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my-cloud.iws" />
@@ -45,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Cheffile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cheffile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site-cookbooks/mrchub/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,6 +43,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.7">
               <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7419355">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phalcon-install.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phalcon-install.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site-cookbooks/mrchub/recipes/phalcon-install.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2533512">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
@@ -155,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/nodes/localhost.json" />
         <option value="$PROJECT_DIR$/.chef/knife.rb" />
-        <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/data_bags/passwords/mysql.json" />
         <option value="$PROJECT_DIR$/site-cookbooks/mrchub/resources/default.rb" />
@@ -178,6 +160,7 @@
         <option value="$PROJECT_DIR$/site-cookbooks/mrchub/attributes/default.rb" />
         <option value="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/phalcon-install.rb" />
         <option value="$PROJECT_DIR$/site-cookbooks/mrchub/recipes/php-install.rb" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
       </list>
     </option>
   </component>
@@ -389,14 +372,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1956" y="0" width="1928" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16090713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26349893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1736111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1736111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -723,14 +706,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cheffile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -805,8 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site-cookbooks/mrchub/recipes/phalcon-install.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2533512">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7419355">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
