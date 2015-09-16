@@ -15,6 +15,7 @@ execute "display-errors" do
 end
 
 execute "phalcon ini" do
+  not_if "cat #{node[:mrchub][:php_config_file]} | grep 'extension=phalcon.so'"
   command "echo 'extension=phalcon.so' >> #{node[:mrchub][:php_config_file]}"
 end
 
