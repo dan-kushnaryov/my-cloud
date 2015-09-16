@@ -1,0 +1,12 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apache2 (3.1.0)
+    packagecloud (0.1.0)
+    runit (1.7.2)
+      packagecloud (>= 0.0.0)
+
+DEPENDENCIES
+  apache2 (>= 1.0.0)
+  runit (>= 0)
+
