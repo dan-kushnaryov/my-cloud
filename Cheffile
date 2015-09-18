@@ -6,9 +6,12 @@ site 'https://supermarket.getchef.com/api/v1'
 # cookbook 'chef-client'
 
 cookbook 'apt', '~> 2.8.2'
-cookbook 'apache2', '>= 1.0.0'
-cookbook 'php', '~> 1.7.2'
-cookbook 'xdebug', '~> 1.0.0'
+cookbook 'apache2', '~> 3.1.0'
+cookbook 'mysql', '= 3.0.4'
+cookbook 'openssl', '= 1.1.0'
+cookbook 'build-essential', '= 2.1.3'
+cookbook "php", :git => "https://github.com/priestjim/chef-php"
+cookbook "xdebug", :git => "https://github.com/escapestudios-cookbooks/xdebug"
 cookbook 'composer', '~> 2.2.0'
 
 # cookbook 'rvm',

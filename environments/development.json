@@ -2,5 +2,23 @@
   "name": "development",
   "description": "development environment",
   "chef_type": "environment",
-  "json_class": "Chef::Environment"
+  "json_class": "Chef::Environment",
+  "override_attributes": {
+    "xdebug": {
+      "config_file": "/etc/php5/mods-available/xdebug.ini",
+      "directives": {
+        "remote_connect_back": "On",
+        "remote_enable": "On",
+        "idekey": "vagrant"
+      }
+    },
+    "php": {
+      "ini_settings": {
+        "html_errors": "On",
+        "display_errors": "On",
+        "display_startup_errors": "On",
+        "error_reporting": -1
+      }
+    }
+  }
 }

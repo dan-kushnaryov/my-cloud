@@ -6,7 +6,6 @@ Thumbs.db
 .vagrant
 
 .idea
-
-/mrc-hub/log
 /cookbooks/
+/mrc-hub/log
 /tmp/librarian/

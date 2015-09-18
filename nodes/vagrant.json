@@ -1,4 +1,7 @@
 {
+  "mysql": {
+    "server_root_password": "root"
+  },
   "environment": "development",
   "run_list": [
     "role[hub-api]"
