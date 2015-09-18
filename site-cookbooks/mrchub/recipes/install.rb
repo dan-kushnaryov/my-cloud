@@ -1,28 +1,29 @@
-# bash 'compile-phalcon' do
-#   user    'root'
-#   cwd     '/vagrant'
-#   code    <<-EON
-# apt-add-repository -y ppa:phalcon/stable
-# apt-get update
-# apt-get install -y php5-phalcon
-# cat > composer.json <<EOF
-# {
-#   "require": {
-#       "phalcon/devtools": "dev-master"
-#   }
-# }
-# EOF
-# composer install
-# rm composer.json
-# rm composer.lock
-# mkdir /opt/phalcon-tools
-# mv /vagrant/vendor/phalcon/devtools/* /opt/phalcon-tools
-# ln -s /opt/phalcon-tools/phalcon.php /usr/bin/phalcon
-# chmod ugo+x /usr/bin/phalcon
-# rm -rf /vagrant/vendor
-# # php5enmod phalcon curl mcrypt intl
-# EON
-# end
+bash 'compile-phalcon' do
+  user    'root'
+  cwd     '/vagrant'
+  code    <<-EON
+apt-add-repository -y ppa:phalcon/stable
+apt-get update
+apt-get install -y php5-phalcon
+cat > composer.json <<EOF
+{
+  "require": {
+      "phalcon/devtools": "dev-master"
+  }
+}
+EOF
+composer install
+rm composer.json
+rm composer.lock
+mkdir /opt/phalcon-tools
+mv /vagrant/vendor/phalcon/devtools/* /opt/phalcon-tools
+ln -s /opt/phalcon-tools/phalcon.php /usr/bin/phalcon
+chmod ugo+x /usr/bin/phalcon
+rm -rf /vagrant/vendor
+# php5enmod phalcon curl mcrypt intl
+php5enmod phalcon
+EON
+end
 
 execute "phalcon-ini" do
   not_if "cat #{node[:mrchub][:php_ini]} | grep 'extension=phalcon.so'"
