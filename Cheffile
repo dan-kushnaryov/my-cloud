@@ -10,8 +10,8 @@ cookbook 'apache2', '~> 3.1.0'
 cookbook 'mysql', '= 3.0.4'
 cookbook 'openssl', '= 1.1.0'
 cookbook 'build-essential', '= 2.1.3'
-cookbook "php", :git => "https://github.com/priestjim/chef-php"
-cookbook "xdebug", :git => "https://github.com/escapestudios-cookbooks/xdebug"
+cookbook 'php', :git => 'https://github.com/priestjim/chef-php'
+cookbook 'xdebug', :git => 'https://github.com/escapestudios-cookbooks/xdebug'
 cookbook 'composer', '~> 2.2.0'
 
 # cookbook 'rvm',

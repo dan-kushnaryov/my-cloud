@@ -8,5 +8,4 @@ default[:mrchub][:api_host] = "api.mrchub.local"
 default[:mrchub][:api_dir] = "#{default[:mrchub][:docroot_dir]}/Hub-API/"
 
 default[:mrchub][:db_name] = "hub_api"
-default[:mrchub][:db_pass] = "1"
 

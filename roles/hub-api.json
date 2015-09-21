@@ -25,6 +25,6 @@
   },
   "run_list": [
     "recipe[apt]",
-    "recipe[mrchub]"
+    "recipe[mrc-hub]"
   ]
 }

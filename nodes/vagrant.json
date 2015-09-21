@@ -1,6 +1,6 @@
 {
   "mysql": {
-    "server_root_password": "root"
+    "server_root_password": "1"
   },
   "environment": "development",
   "run_list": [
